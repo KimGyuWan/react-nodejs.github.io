@@ -3,7 +3,11 @@ import datajson from "../../data/data.json";
 import "../../scss/sanho.scss";
 
 function AppSectionCsr() {
-  const shuffledTaglist = datajson.sectioncsr.content;
+  const shuffledTaglist = datajson.sectioncsr.content.sort(
+    () => Math.random() - 0.5
+  );
+
+  console.log(shuffledTaglist);
 
   return (
     <section id="csr">
@@ -41,5 +45,4 @@ function AppSectionCsr() {
     </section>
   );
 }
-
 export default AppSectionCsr;
