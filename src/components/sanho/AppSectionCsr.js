@@ -33,7 +33,6 @@ function AppSectionCsr() {
                       })}
                     </div>
                   </li>
-                  // AppSectionCsr.js 에
                 )
             )}
           </ul>
