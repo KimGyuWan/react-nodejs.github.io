@@ -28,6 +28,7 @@ import clsx from 'clsx';
 function Lysswiper() {
     const [isPlaying, setIsPlaying] = useState(false);
     const swiperRef = useRef(null);
+    const [swiperIndex, setSwiperIndex] = useState(0);
 
     const togglePlay = () => {
         const buttonToggle = document.querySelector('.toggle')
@@ -48,9 +49,10 @@ function Lysswiper() {
 
 
     return (
-        <section id='slide_banner' className={clsx('active' + swiperCore.activeIndex)}>
+        <section id='slide_banner' className={clsx('active' + swiperIndex)}>
             <div className='container'>
                 <Swiper
+                    onActiveIndexChange={(swiperCore) => { setSwiperIndex(swiperCore.realIndex) }}
 
                     ref={swiperRef}
                     modules={[EffectFade, Autoplay, Navigation, Pagination]} effect="fade"
