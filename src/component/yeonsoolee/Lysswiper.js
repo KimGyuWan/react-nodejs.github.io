@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom'
+
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, EffectFade, Autoplay } from 'swiper/modules';
+import swiperCore from 'swiper/core';
 import 'swiper/swiper-bundle.css';
 
 import 'swiper/css';
@@ -17,14 +19,40 @@ import data from '../../data/data.json'
 //scss
 import './slidebanner.scss'
 
+//clsx
+import clsx from 'clsx';
+
 
 
 
 function Lysswiper() {
+    const [isPlaying, setIsPlaying] = useState(false);
+    const swiperRef = useRef(null);
+
+    const togglePlay = () => {
+        const buttonToggle = document.querySelector('.toggle')
+        const swiperInstance = swiperRef.current.swiper;
+
+        if (isPlaying) {
+            swiperInstance.autoplay.stop();
+            buttonToggle.classList.remove('on')
+        } else {
+            swiperInstance.autoplay.start();
+            buttonToggle.classList.add('on')
+        }
+        setIsPlaying(!isPlaying);
+    };
+
+
+
+
+
     return (
-        <section id='slide_banner'>
+        <section id='slide_banner' className={clsx('active' + swiperCore.activeIndex)}>
             <div className='container'>
                 <Swiper
+
+                    ref={swiperRef}
                     modules={[EffectFade, Autoplay, Navigation, Pagination]} effect="fade"
                     autoplay={{
                         delay: 2500,
@@ -33,16 +61,14 @@ function Lysswiper() {
                     navigation
                     pagination={{ clickable: true }}
                     slidesPerView={1}
-                    loop={true}
-
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
-
+                    loop={true}
 
                 >
                     {
                         data.slide_banner.map((el, idx) => {
-                            return <SwiperSlide key={idx}>
+                            return <SwiperSlide key={idx} className={clsx('active' + idx)}>
                                 <Link to={el.slide_banner_href}>
                                     <img src={el.slide_banner_src} alt={el.slide_banner_alt}></img>
                                     <div className={el.slide_banner_cls}>
@@ -54,10 +80,12 @@ function Lysswiper() {
                         })
                     }
                     <div className='btns position-absolute'>
-                        <button className='toggle position-relative'>
+                        <button className='toggle position-relative' onClick={togglePlay}>
                         </button>
                     </div>
+
                 </Swiper>
+
             </div>
         </section>
     )
