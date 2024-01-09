@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom'
 //data
 import data from '../../data/data.json'
 
+//scss
+import './footer.scss'
+
 
 function Lysfooter() {
     return (

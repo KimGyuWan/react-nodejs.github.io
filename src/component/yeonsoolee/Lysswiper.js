@@ -11,10 +11,13 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-
-
 //data
 import data from '../../data/data.json'
+
+//scss
+import './slidebanner.scss'
+
+
 
 
 function Lysswiper() {

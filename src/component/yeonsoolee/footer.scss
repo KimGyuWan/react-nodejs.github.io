@@ -1,0 +1,144 @@
+#ft a {
+    text-decoration: none;
+    color: black;
+}
+
+#ft li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#ft button {
+    border: none;
+}
+
+#ft .container {
+    padding-top: 3rem;
+}
+
+#ft .container:nth-of-type(2) {
+    padding-bottom: 3rem;
+}
+
+#ft h2 a {
+    display: block;
+}
+
+
+#ft .info>li {
+    font-size: 1.5rem;
+}
+
+#ft .info>li+li {
+    margin-left: 5rem;
+}
+
+#ft .info>li>ul {
+    font-size: 0.8rem;
+}
+
+#ft .family {
+    top: 0;
+    right: 0;
+    width: 50%;
+    z-index: 1000;
+    border-bottom: 1px solid #da291c;
+    transform: translate(0, -100%);
+}
+
+#ft .family a {
+    background-color: #fff;
+}
+
+#ft .family ul {
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.8s;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+#ft .family button {
+    padding: 0.5em;
+    background-color: transparent;
+}
+
+#ft .family:hover button::after {
+    font-family: bootstrap-icons;
+    content: "\F286";
+}
+
+#ft .family button::after {
+    font-family: bootstrap-icons;
+    content: "\F282";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#ft .family:hover ul {
+    max-height: 800px;
+    box-shadow: 0 6px 9px #da291c;
+}
+
+#ft .website li {
+    margin-top: 1rem;
+}
+
+#ft .website li a {
+    margin-left: 0.5rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    border: 1px solid #da291c;
+    box-sizing: border-box;
+    display: block;
+    transition: 0.5s;
+    background-color: #fff;
+}
+
+#ft .website .row {
+    margin: 0;
+}
+
+#ft .website li a:hover {
+    background-color: #da291c;
+    color: #fff;
+}
+
+#ft ul.icon {
+    padding-top: 0;
+    margin-right: 1rem;
+}
+
+#ft ul.icon li {
+    background-color: #F5F5F7;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#ft ul.icon li+li {
+    margin-left: 0.5rem;
+}
+
+#ft ul.icon li a:after {
+    font-family: bootstrap-icons !important;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    display: block;
+    content: "\F344";
+}
+
+#ft ul.icon li:nth-of-type(2) a::after {
+    content: "\F437";
+}
+
+#ft ul.icon li:nth-of-type(3) a::after {
+    content: "\F62B";
+}
+
+#ft ul.icon li a:hover {
+    color: #da291c;
+}

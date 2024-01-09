@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom'
 //data
 import data from '../../data/data.json'
 
+//scss
+import './slidebanner.scss'
+
 function Lyslinebanner() {
     return (
         <section id='line_banner'>
