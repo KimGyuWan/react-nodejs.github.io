@@ -74,7 +74,16 @@ function Lysswiper() {
                                 <Link to={el.slide_banner_href}>
                                     <img src={el.slide_banner_src} alt={el.slide_banner_alt}></img>
                                     <div className={el.slide_banner_cls}>
-                                        <h3>{el.slide_banner_h3}</h3>
+                                        <h3>{el.slide_banner_h3.split("|").map((vv, ii) => {
+                                            return (
+                                                <>
+                                                    {vv}
+                                                    <br></br>
+                                                </>
+                                            )
+                                        })}
+
+                                        </h3>
                                         <p>{el.slide_banner_p}</p>
                                     </div>
                                 </Link>

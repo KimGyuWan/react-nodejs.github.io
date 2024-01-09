@@ -23,7 +23,14 @@ function Lysfooter() {
                             return (
                                 <div>
                                     <h4>{el.h4}</h4>
-                                    <p>{el.p}</p>
+                                    <p>{el.p.split("|").map((vv, ee) => {
+                                        return (
+                                            <>
+                                                {vv}
+                                                <br></br>
+                                            </>
+                                        )
+                                    })}</p>
                                 </div>
                             )
                         })

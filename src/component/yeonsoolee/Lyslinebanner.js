@@ -11,7 +11,15 @@ function Lyslinebanner() {
     return (
         <section id='line_banner'>
             <div className='container position-relative d-flex align-items-center justify-content-between'>
-                <h2>{data.linebanner.h2}</h2>
+                <h2>{data.linebanner.h2.split("|").map((vv, ii) => {
+                    return (
+                        <>
+                            {vv}
+                            <br></br>
+                        </>
+                    )
+                })}
+                </h2>
                 <div className='member d-flex align-items-center'>
                     <button className='position-relative'>
                         <i className='bi bi-plus position-absolute'>
