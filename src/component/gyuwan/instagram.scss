@@ -1,0 +1,51 @@
+#section_instagram {
+  position: relative;
+  display: flex;
+  padding: 50px 200px;
+  box-sizing: border-box;
+
+  .insta img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5rem;
+  }
+
+  .insta {
+    width: 510px;
+    height: 700px;
+    display: flex;
+    position: relative;
+    /* 왼쪽 메인 사진 계산해야함 */
+  }
+
+  .instagroup2 {
+    margin-left: 20px;
+  }
+
+  .instagroup2 .swiper-slide:nth-child(1) {
+    margin-top: 50px;
+  }
+
+  .istagramMain img {
+    width: 380px;
+    height: auto;
+    position: relative;
+    box-shadow: 0px 2px 18px 0px red;
+  }
+
+  h2 {
+    position: relative;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .instagroup2.hidden {
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+}
