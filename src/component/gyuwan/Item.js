@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
-import data from '../../data/data.json'
+import React, { useState } from 'react';
+import './item.scss';
+import data from '../../data/data.json';
 import Productimg from './Productimg';
 
 function Item() {
