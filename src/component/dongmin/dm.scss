@@ -3,15 +3,9 @@
     list-style: none;
 }
 
-body {
-    width: auto;
-    height: 800px;
-}
-
 // brand
 #section-brand {
     h2 {
-        display: flex;
         color: black;
         text-align: center;
         margin-bottom: 20px;
@@ -82,8 +76,6 @@ body {
 #form {
     background-color: #E86962;
     padding: 80px 0;
-    height: 600px;
-
 
     h2 {
         color: white;
