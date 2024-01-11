@@ -5,6 +5,34 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 const Form = () => {
+    const [formData, setFormData] = useState({
+        name: "",
+        address: "",
+        tel: "",
+        type: "",
+        email: "",
+    })
+
+    const { name, address, type, email, tel } = formData;
+
+    const onChange = (e) => {
+        const value = e.target.value;
+        const id = e.target.id;
+
+        setFormData({
+            ...formData,
+            [id]: value,
+        });
+    }
+
+    const splitParagraph = () => {
+        const text = "잘먹을까? 잘맞을까? 고민이시라면? | 무료 체험 사료로 시작해보세요!";
+        const splitText = text.split(' | ');
+
+        return splitText.map((part, index) => (
+            <p key={index}>{part}</p>
+        ));
+    }
 
     return (
         <>
@@ -15,6 +43,7 @@ const Form = () => {
                         <div className="col-6 d-flex justify-content-center">
                             <div id="formhd" className="w-100 p-0 m-0 position-rel">
                                 <h2>맞춤영양 무료 체험 프로그램</h2>
+                                {splitParagraph()}
                             </div>
 
                         </div>
@@ -28,14 +57,14 @@ const Form = () => {
                                         <li className="item my-2">
                                             <div className="input_box1">
                                                 <label htmlFor="emailForm" className="p-0"></label>
-                                                <input type="text" name="name" id="name" defaultValue="" placeholder="이름" />
+                                                <input type="text" name="name" id="name" defaultValue={name} onChange={onChange} placeholder="이름" />
 
                                             </div>
                                         </li>
                                         <li className="item my-2">
                                             <div className="input_box1">
                                                 <label htmlFor="name" className="p-0"></label>
-                                                <input type="text" name="address" id="address" address="" defaultValue="" placeholder="주소" />
+                                                <input type="text" name="address" id="address" address="" defaultValue={address} onChange={onChange} placeholder="주소" />
                                             </div>
                                         </li>
                                         <li className="item my-2">
@@ -71,13 +100,13 @@ const Form = () => {
                                         <li className="item my-2">
                                             <div className="input_box1">
                                                 <label htmlFor="company" className="p-0"></label>
-                                                <input type="text" name="tel" id="tel" defaultValue="" placeholder="연락처" />
+                                                <input type="text" name="tel" id="tel" defaultValue={tel} onChange={onChange} placeholder="연락처" />
                                             </div>
                                         </li>
                                         <li className="item my-2">
                                             <div className="input_box1">
                                                 <label htmlFor="tel" className="p-0"></label>
-                                                <input type="text" name="email" id="email" defaultValue="" className="input_tel" placeholder="이메일" />
+                                                <input type="text" name="email" id="email" defaultValue={email} onChange={onChange} className="input_tel" placeholder="이메일" />
                                             </div>
                                         </li>
                                     </ul>
