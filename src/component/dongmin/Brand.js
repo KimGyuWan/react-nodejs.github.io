@@ -54,19 +54,25 @@ function Brand(props) {
                                         </div>
 
                                         <div className='sh position-relative'>
-                                            {brand.h3 && brand.h3}
+                                            {brand.h3 && brand.h3.split('|').map((v, i) => (
+                                                <React.Fragment key={i}>
+                                                    {v}
+                                                    <br />
+                                                </React.Fragment>
+                                            ))}
 
                                             <div className='dp position-rel'>
-                                                {brand.p && brand.p}
+                                                {brand.p && brand.p.split('|').map((v, i) => (
+                                                    <React.Fragment key={i}>
+                                                        {v}
+                                                        <br />
+                                                    </React.Fragment>
+
+                                                ))}
                                             </div>
 
                                         </div>
-
-
-
-
                                     </SwiperSlide>
-
                                 </div>
                             </div>
                         </div>
