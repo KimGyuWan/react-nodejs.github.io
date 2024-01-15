@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/react-nodejs.github.io/static/css/main.82743f21.css",
-    "main.js": "/react-nodejs.github.io/static/js/main.c7921455.js",
+    "main.css": "/react-nodejs.github.io/static/css/main.146ed1b0.css",
+    "main.js": "/react-nodejs.github.io/static/js/main.de02b10d.js",
+    "static/media/form0.jpg": "/react-nodejs.github.io/static/media/form0.fda3c5f2e7294d1e5a28.jpg",
     "index.html": "/react-nodejs.github.io/index.html",
-    "main.82743f21.css.map": "/react-nodejs.github.io/static/css/main.82743f21.css.map",
-    "main.c7921455.js.map": "/react-nodejs.github.io/static/js/main.c7921455.js.map"
+    "main.146ed1b0.css.map": "/react-nodejs.github.io/static/css/main.146ed1b0.css.map",
+    "main.de02b10d.js.map": "/react-nodejs.github.io/static/js/main.de02b10d.js.map"
   },
   "entrypoints": [
-    "static/css/main.82743f21.css",
-    "static/js/main.c7921455.js"
+    "static/css/main.146ed1b0.css",
+    "static/js/main.de02b10d.js"
   ]
 }
