@@ -34,11 +34,11 @@ function Item() {
               {
                 data.item_listgroup.map((el, idx) => {
                   return (
-                    <>
+                    <React.Fragment key={idx}>
                       {tabNum === el.item_mainlist_href ?
                         <Productimg dataList={el} /> : null
                       }
-                    </>
+                    </React.Fragment>
                   )
                 })
               }

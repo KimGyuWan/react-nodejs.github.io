@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, EffectFade, Autoplay } from 'swiper/modules';
-import swiperCore from 'swiper/core';
 import 'swiper/swiper-bundle.css';
 
 import 'swiper/css';

@@ -1,6 +1,6 @@
 import React from "react";
 import datajson from "../../data/data.json";
-import "../../scss/sanho.scss";
+import "./sanho.scss"
 
 function AppSectionCsr() {
   const shuffledTaglist = datajson.sectioncsr.content.sort(

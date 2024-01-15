@@ -183,210 +183,210 @@
     {
       "item_listgroup_cls": "col-6 no0",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li1/list1_1.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li1/list1_1.jpg",
       "item_listgroup_alt": "list1_1",
       "item_mainlist_href": "no0"
     },
     {
       "item_listgroup_cls": "col-6 no0",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li1/list1_2.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li1/list1_2.jpg",
       "item_listgroup_alt": "list1_2",
       "item_mainlist_href": "no0"
     },
     {
       "item_listgroup_cls": "col-6 no0",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li1/list1_3.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li1/list1_3.jpg",
       "item_listgroup_alt": "list1_3",
       "item_mainlist_href": "no0"
     },
     {
       "item_listgroup_cls": "col-6 no0",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li1/list1_4.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li1/list1_4.jpg",
       "item_listgroup_alt": "list1_4",
       "item_mainlist_href": "no0"
     },
     {
       "item_listgroup_cls": "col-6 no0",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li1/list1_5.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li1/list1_5.jpg",
       "item_listgroup_alt": "list1_5",
       "item_mainlist_href": "no0"
     },
     {
       "item_listgroup_cls": "col-6 no0",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li1/list1_6.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li1/list1_6.jpg",
       "item_listgroup_alt": "list1_6",
       "item_mainlist_href": "no0"
     },
     {
       "item_listgroup_cls": "col-6 no1",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li2/list2_1.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list2_1.jpg",
       "item_listgroup_alt": "list2_1",
       "item_mainlist_href": "no1"
     },
     {
       "item_listgroup_cls": "col-6 no1",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li2/list2_2.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list2_2.jpg",
       "item_listgroup_alt": "list2_2",
       "item_mainlist_href": "no1"
     },
     {
       "item_listgroup_cls": "col-6 no1",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li2/list2_3.png",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list2_3.png",
       "item_listgroup_alt": "list2_3",
       "item_mainlist_href": "no1"
     },
     {
       "item_listgroup_cls": "col-6 no1",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li2/list2_4.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list2_4.jpg",
       "item_listgroup_alt": "list2_4",
       "item_mainlist_href": "no1"
     },
     {
       "item_listgroup_cls": "col-6 no1",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li2/list2_5.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list2_5.jpg",
       "item_listgroup_alt": "list2_5",
       "item_mainlist_href": "no1"
     },
     {
       "item_listgroup_cls": "col-6 no1",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li2/list2_6.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list2_6.jpg",
       "item_listgroup_alt": "list2_6",
       "item_mainlist_href": "no1"
     },
     {
       "item_listgroup_cls": "col-6 no2",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li3/list3_1.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li3/list3_1.jpg",
       "item_listgroup_alt": "list3_1",
       "item_mainlist_href": "no2"
     },
     {
       "item_listgroup_cls": "col-6 no2",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li3/list3_2.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li3/list3_2.jpg",
       "item_listgroup_alt": "list3_2",
       "item_mainlist_href": "no2"
     },
     {
       "item_listgroup_cls": "col-6 no2",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li3/list3_3.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li3/list3_3.jpg",
       "item_listgroup_alt": "list3_3",
       "item_mainlist_href": "no2"
     },
     {
       "item_listgroup_cls": "col-6 no2",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li3/list3_4.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li3/list3_4.jpg",
       "item_listgroup_alt": "list3_4",
       "item_mainlist_href": "no2"
     },
     {
       "item_listgroup_cls": "col-6 no2",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li3/list3_5.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li3/list3_5.jpg",
       "item_listgroup_alt": "list3_5",
       "item_mainlist_href": "no2"
     },
     {
       "item_listgroup_cls": "col-6 no2",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li3/list3_6.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li3/list3_6.jpg",
       "item_listgroup_alt": "list3_6",
       "item_mainlist_href": "no2"
     },
     {
       "item_listgroup_cls": "col-6 no3",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li4/list4_1.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li4/list4_1.jpg",
       "item_listgroup_alt": "list4_1",
       "item_mainlist_href": "no3"
     },
     {
       "item_listgroup_cls": "col-6 no3",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li4/list4_2.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li4/list4_2.jpg",
       "item_listgroup_alt": "list4_2",
       "item_mainlist_href": "no3"
     },
     {
       "item_listgroup_cls": "col-6 no3",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li4/list4_3.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li4/list4_3.jpg",
       "item_listgroup_alt": "list4_3",
       "item_mainlist_href": "no3"
     },
     {
       "item_listgroup_cls": "col-6 no3",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li4/list4_4.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li4/list4_4.jpg",
       "item_listgroup_alt": "list4_4",
       "item_mainlist_href": "no3"
     },
     {
       "item_listgroup_cls": "col-6 no3",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li4/list4_5.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li4/list4_5.jpg",
       "item_listgroup_alt": "list4_5",
       "item_mainlist_href": "no3"
     },
     {
       "item_listgroup_cls": "col-6 no3",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li4/list4_6.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li4/list4_6.jpg",
       "item_listgroup_alt": "list4_6",
       "item_mainlist_href": "no3"
     },
     {
       "item_listgroup_cls": "col-6 no4",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li5/list5_1.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li5/list5_1.jpg",
       "item_listgroup_alt": "list5_1",
       "item_mainlist_href": "no4"
     },
     {
       "item_listgroup_cls": "col-6 no4",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li5/list5_2.png",
+      "item_listgroup_src": "./img/gyuwan/product/li5/list5_2.png",
       "item_listgroup_alt": "list5_2",
       "item_mainlist_href": "no4"
     },
     {
       "item_listgroup_cls": "col-6 no4",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li5/list5_3.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li5/list5_3.jpg",
       "item_listgroup_alt": "list5_3",
       "item_mainlist_href": "no4"
     },
     {
       "item_listgroup_cls": "col-6 no4",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li5/list5_4.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li5/list5_4.jpg",
       "item_listgroup_alt": "list5_4",
       "item_mainlist_href": "no4"
     },
     {
       "item_listgroup_cls": "col-6 no4",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li5/list5_5.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li5/list5_5.jpg",
       "item_listgroup_alt": "list5_5",
       "item_mainlist_href": "no4"
     },
     {
       "item_listgroup_cls": "col-6 no4",
       "item_listgroup_href": "#none",
-      "item_listgroup_src": "/img/gyuwan/product/li5/list5_6.jpg",
+      "item_listgroup_src": "./img/gyuwan/product/li5/list5_6.jpg",
       "item_listgroup_alt": "list5_6",
       "item_mainlist_href": "no4"
     }
