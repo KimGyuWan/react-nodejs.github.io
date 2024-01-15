@@ -10,9 +10,9 @@ function App() {
     <>
       <Lysswiper />
       <Lyslinebanner />
-      <Lysfooter />
       <Item />
       <Instagram />
+      <Lysfooter />
     </>
   );
 }
