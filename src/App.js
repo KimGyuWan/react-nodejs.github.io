@@ -1,9 +1,9 @@
+import Lysswiper from './component/yeonsoolee/Lysswiper';
+import Lyslinebanner from './component/yeonsoolee/Lyslinebanner';
 import Item from './component/gyuwan/Item'
 import Instagram from './component/gyuwan/Instagram';
-
-import Lyslinebanner from './component/yeonsoolee/Lyslinebanner';
+import AppSectionCsr from "./components/sanho/AppSectionCsr";
 import Lysfooter from './component/yeonsoolee/Lysfooter';
-import Lysswiper from './component/yeonsoolee/Lysswiper';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Lyslinebanner />
       <Item />
       <Instagram />
+      <AppSectionCsr />
       <Lysfooter />
     </>
   );

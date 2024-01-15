@@ -15,7 +15,7 @@
     "react-bootstrap": "^2.9.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-scrollspy": "^3.4.3",
     "scss": "^0.2.4",
     "swiper": "^11.0.5",
