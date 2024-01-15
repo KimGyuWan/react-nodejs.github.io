@@ -1,0 +1,84 @@
+body * {
+    font-family: "Noto Sans KR";
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+
+#topbanner {
+    line-height: 2;
+}
+
+#gnb {
+    line-height: 4;
+}
+
+#section-item {
+    padding: 100px 0;
+}
+
+#section-instagram {
+    height: 800px;
+}
+
+
+.bgactiveColor {
+    background-color: #da291c !important;
+}
+
+.activeColor {
+    color: #da291c !important;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.d-inlineblock {
+    display: inline-block;
+}
+
+.position-rel {
+    position: relative;
+}
+
+.position-abs {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.position-stiky {
+    position: sticky;
+}
+
+.justifycontent-spacebetween {
+    justify-content: space-between;
+}
+
+.alignitems-center {
+    align-items: center;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+
+.w-0 {
+    width: 0;
+}
+
+.ir-hidden {
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}

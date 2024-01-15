@@ -118,7 +118,8 @@
     ]
   },
   "sectionbrand": {
-    "h2": "우리의 약속 | OUR COMMITMENT",
+    "h2": "우리의 약속",
+    "h2_1": "OUR COMMITMENT",
     "brandlist": [
       {
         "src": "./img/dongmin/form1.gif",
