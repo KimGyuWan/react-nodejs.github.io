@@ -8,13 +8,13 @@ import AppSectionCsr from "./component/sanho/AppSectionCsr";
 import Lysfooter from './component/yeonsoolee/Lysfooter';
 import Form from './component/dongmin/Form';
 import datainfo from "./data/data.json";
-import { Margin145 } from './component/stylecomponent/Commonui';
+import { Margint145 } from './component/stylecomponent/Commonui';
 
 function App() {
   return (
     <>
       <Header dataAd={datainfo.top_banner[0]} dataGnb={datainfo.gnb}></Header>
-      <Margin145>
+      <Margint145>
         <Lysswiper />
         <Lyslinebanner />
         <Brand></Brand>
@@ -23,7 +23,7 @@ function App() {
         <AppSectionCsr />
         <Form />
         <Lysfooter />
-      </Margin145>
+      </Margint145>
     </>
   );
 }

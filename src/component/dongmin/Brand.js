@@ -14,7 +14,7 @@ import data from '../../data/data.json';
 
 
 
-function Brand(props) {
+function Brand() {
   return (
     <>
       <section id="section-brand">
@@ -35,34 +35,36 @@ function Brand(props) {
           className='brand-list'
         >
           {data.sectionbrand.brandlist.map((brand, index) => (
-            <div class="swiper" id="mainSwiper">
-              <div class="swiper-wrapper" key={index}>
-                <div class="swiper-slide postion-rel d-flex align-items-center justify-content-center ">
-                  <SwiperSlide className='bg-white '>
-                    <div className='position-relative'>
-                      <img src={brand.src} alt={`하림펫푸드 로고 ${index + 1}`}>
-                      </img>
-                    </div>
-                    <div className='sh position-relative'>
-                      {brand.h3 && brand.h3.split('|').map((v, i) => (
-                        <React.Fragment key={i}>
-                          {v}
-                          <br />
-                        </React.Fragment>
-                      ))}
-                      <div className='dp position-rel'>
-                        {brand.p && brand.p.split('|').map((v, i) => (
+            <React.Fragment key={index}>
+              <div class="swiper" id="mainSwiper">
+                <div class="swiper-wrapper" key={index}>
+                  <div class="swiper-slide postion-rel d-flex align-items-center justify-content-center ">
+                    <SwiperSlide className='bg-white '>
+                      <div className='position-relative'>
+                        <img src={brand.src} alt={`하림펫푸드 로고 ${index + 1}`}>
+                        </img>
+                      </div>
+                      <div className='sh position-relative'>
+                        {brand.h3 && brand.h3.split('|').map((v, i) => (
                           <React.Fragment key={i}>
                             {v}
                             <br />
                           </React.Fragment>
                         ))}
+                        <div className='dp position-rel'>
+                          {brand.p && brand.p.split('|').map((v, i) => (
+                            <React.Fragment key={i}>
+                              {v}
+                              <br />
+                            </React.Fragment>
+                          ))}
+                        </div>
                       </div>
-                    </div>
-                  </SwiperSlide>
+                    </SwiperSlide>
+                  </div>
                 </div>
               </div>
-            </div>
+            </React.Fragment>
           ))}
         </Swiper >
       </section>

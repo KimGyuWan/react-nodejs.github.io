@@ -46,8 +46,6 @@ function Instagram() {
             speed={speed}
             direction={direction}
             breakpoints={breakpoints}
-            spaceBetween={10}
-            slidesPerView={2.5}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
           >

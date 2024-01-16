@@ -75,20 +75,20 @@ function Lysswiper() {
                                     <div className={el.slide_banner_cls}>
                                         <h3>{el.slide_banner_h3.split("|").map((vv, ii) => {
                                             return (
-                                                <>
+                                                <React.Fragment key={ii}>
                                                     {vv}
                                                     <br></br>
-                                                </>
+                                                </React.Fragment>
                                             )
                                         })}
 
                                         </h3>
                                         <p>{el.slide_banner_p.split("|").map((vv, ii) => {
                                             return (
-                                                <>
+                                                <React.Fragment key={ii}>
                                                     {vv}
                                                     <br></br>
-                                                </>
+                                                </React.Fragment>
                                             )
                                         })}</p>
                                     </div>

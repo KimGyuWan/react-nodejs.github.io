@@ -12,10 +12,10 @@ function Lyslinebanner() {
             <div className='container position-relative d-flex align-items-center justify-content-between'>
                 <h2>{data.linebanner.h2.split("|").map((vv, ii) => {
                     return (
-                        <>
+                        <React.Fragment key={ii}>
                             {vv}
                             <br></br>
-                        </>
+                        </React.Fragment >
                     )
                 })}
                 </h2>
