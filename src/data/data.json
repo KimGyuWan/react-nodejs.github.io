@@ -1,0 +1,34 @@
+{
+  "gnb": [
+    {
+      "gnb_nm": "이벤트",
+      "gnb_href": "#slide-banner",
+      "gnb_cls": "text-dark position-relative",
+      "gnb_target": "_blank"
+    },
+    {
+      "gnb_nm": "하림펫푸드",
+      "gnb_href": "#section-brand",
+      "gnb_cls": "text-dark position-relative",
+      "gnb_target": "_blank"
+    },
+    {
+      "gnb_nm": "제품",
+      "gnb_href": "#section-item",
+      "gnb_cls": "text-dark position-relative",
+      "gnb_target": "_blank"
+    },
+    {
+      "gnb_nm": "후기",
+      "gnb_href": "#section-instagram",
+      "gnb_cls": "text-dark position-relative",
+      "gnb_target": "_blank"
+    },
+    {
+      "gnb_nm": "체험",
+      "gnb_href": "#form",
+      "gnb_cls": "text-dark position-relative",
+      "gnb_target": "_blank"
+    }
+  ]
+}
