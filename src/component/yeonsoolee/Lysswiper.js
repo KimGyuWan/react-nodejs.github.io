@@ -83,7 +83,14 @@ function Lysswiper() {
                                         })}
 
                                         </h3>
-                                        <p>{el.slide_banner_p}</p>
+                                        <p>{el.slide_banner_p.split("|").map((vv, ii) => {
+                                            return (
+                                                <>
+                                                    {vv}
+                                                    <br></br>
+                                                </>
+                                            )
+                                        })}</p>
                                     </div>
                                 </Link>
                             </SwiperSlide>
