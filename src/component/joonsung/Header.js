@@ -1,11 +1,48 @@
 
 import React from 'react';
+import './header.scss';
+
+const familyInfo = {
+  button: ["KOR", "ENG"],
+  subList: [
+    {
+      text: "KOR",
+      href: "#kr",
+      activeClass: "on"
+    },
+    {
+      text: "ENG",
+      href: "#en",
+      activeClass: ""
+    }
+  ]
+}
+
+
 function Header(props) {
+
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+
+    // Add scroll event listener when the component mounts
+    window.addEventListener('scroll', handleScroll);
+
+    // Remove scroll event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isScrolled]); // Empty dependency array to run the effect only once (on mount)
+  
  
+
 
   return (
    
-    <div>
+    <div className={isScrolled ? 'scroll' : ''}>
    
     <header id="hd" className="border-bottom fixed-top bg-white">
     <div id="topbanner" className="bgactiveColor text-center p-1">
