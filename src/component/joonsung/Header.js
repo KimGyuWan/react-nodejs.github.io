@@ -1,6 +1,6 @@
-
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './header.scss';
+
 
 const familyInfo = {
   button: ["KOR", "ENG"],
@@ -19,26 +19,33 @@ const familyInfo = {
 }
 
 
-function Header(props) {
 
+function Header(props) {
+  const [showst, showstu] = useState(false);
+
+  const [number, numberset] = useState(0)
   const [isScrolled, setIsScrolled] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
-    };
-
-    // Add scroll event listener when the component mounts
-    window.addEventListener('scroll', handleScroll);
-
-    // Remove scroll event listener when the component unmounts
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [isScrolled]); // Empty dependency array to run the effect only once (on mount)
+  
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        setIsScrolled(window.scrollY > 10);
+      };
+  
+      // Add scroll event listener when the component mounts
+      window.addEventListener('scroll', handleScroll);
+  
+      // Remove scroll event listener when the component unmounts
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, [isScrolled]); // Empty dependency array to run the effect only once (on mount)
+    
+   
+ 
   
  
-
 
   return (
    
@@ -65,13 +72,13 @@ function Header(props) {
       </ul>
 
       <div id="family" className={`position-relative w-0 `}>
-        <button className="position-relative bg-transparent border-0">{familyInfo.button[number]}</button>
+        <button className="position-relative bg-transparent border-0" onClick={ () =>{ showstu(!showst); console.log(showst) }}>{familyInfo.button[number]}</button>
 
 
-        <ul className={`mb-0`}>
+        <ul className={ `${ showst ?  "d-block" : "d-none" }  mb-0`}>
           {
           familyInfo.subList.map((el, idx)=>{
-         return   <li key={`li${idx}`}><a href={el.href} className={el.activeClass}>{el.text}</a></li>
+         return   <li key={`li${idx}`} onClick={() =>{ showstu(!showst); console.log(showst); numberset(idx)}}><a href={el.href} className={el.activeClass}>{el.text}</a></li>
             })
           }
          
@@ -83,7 +90,7 @@ function Header(props) {
     </div>
           
   </header>
-  <div id="popup" className="position-fixed bgactiveColor">
+  <div onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }} id="popup" className="position-fixed bgactiveColor">
       <a href="#hd">
         <i className="bi bi-arrow-up"></i>
       </a>
