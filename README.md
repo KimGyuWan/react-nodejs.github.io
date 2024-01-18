@@ -8,11 +8,11 @@ https://kimgyuwan.github.io/react-nodejs.github.io/
 
 ### Collaborator
 
-김산호 : https://github.com/SANHOKIM
-이연수 : https://github.com/flxk202122
-김규완 : https://github.com/KimGyuWan
-이동민 : https://github.com/snb2323
-이준성 : https://github.com/joons5967
+* 김산호 : https://github.com/SANHOKIM
+* 이연수 : https://github.com/flxk202122
+* 김규완 : https://github.com/KimGyuWan
+* 이동민 : https://github.com/snb2323
+* 이준성 : https://github.com/joons5967
 
 ### Figma Adress
 
