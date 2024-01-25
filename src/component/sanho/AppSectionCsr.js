@@ -1,6 +1,6 @@
 import React from "react";
 import datajson from "../../data/data.json";
-import "./sanho.scss"
+import "./sanho.scss";
 
 function AppSectionCsr() {
   const shuffledTaglist = datajson.sectioncsr.content.sort(
@@ -14,7 +14,7 @@ function AppSectionCsr() {
       <div className="container">
         <h2 className="">{datajson.sectioncsr.h2}</h2>
         <div className="box1">
-          <ul className="article-list d-flex justify-content-between">
+          <ul className="article-list d-lg-flex justify-content-between">
             {shuffledTaglist.map(
               (el, idx) =>
                 idx < 3 && (

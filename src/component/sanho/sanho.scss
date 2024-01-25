@@ -33,7 +33,7 @@
   border-radius: 1rem;
   margin-right: 0.5rem;
   padding: 0 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.2em;
 }
 
 #csr .box1 ul li {
@@ -73,8 +73,41 @@
 
 #csr .csr-tag {
   flex-wrap: wrap;
+  justify-content: flex-start !important;
 }
 
 #csr .csr-tag a {
   margin-top: 0.7rem;
+}
+
+@media (max-width: 991px) {
+  #csr img {
+    width: 100%;
+  }
+  #csr .article-list li {
+    width: 100%;
+  }
+
+  #csr .container h2 {
+    font-size: 2rem;
+  }
+
+  #csr .container h3 {
+    font-size: 1.5rem;
+  }
+
+  #csr .csr-tag a {
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    padding: 0 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  #csr .img-box img {
+    transition: 0s;
+  }
+
+  #csr .img-box:hover img {
+    transform: none;
+  }
 }
