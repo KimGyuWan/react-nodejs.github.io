@@ -18,7 +18,7 @@ function AppSectionCsr() {
             {shuffledTaglist.map(
               (el, idx) =>
                 idx < 3 && (
-                  <li className="show" key={idx}>
+                  <li className="show col-md-4" key={idx}>
                     <a href={el.href}>
                       <div className="img-box">
                         <img src={el.src} alt="펫푸드"></img>
